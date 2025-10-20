@@ -96,11 +96,10 @@ Proyek ini dilisensikan di bawah lisensi **MIT** — Anda bebas menggunakan, men
 
 ## 👨‍💻 Dibuat oleh
 
-Lukman Hakim
-Mahasiswa & Web Developer yang mencintai keindahan alam 
-📍 Universitas Yudharta Pasuruan
+**Lukman Hakim**  
+Mahasiswa & Web Developer yang mencintai keindahan alam  
+📍 *Universitas Yudharta Pasuruan*  
 📧 lukmanhakim23072002@gmail.com
-
 ---
 
 > “Temukan keindahan Indonesia, dari Sabang sampai Merauke.”
