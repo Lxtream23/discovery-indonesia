@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> History-Indonesia | UYP </title>
+  <link rel="shortcut icon" href="/Picture/logo/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+    <title>History</title>
+</head>
+<body>
+    <header id="header">
+        <a href="/index.html" class="logo">History of Indonesia</a>
+        <ul>
+            <li><a href="/index.html" class="active">Home</a></li>
+            <!-- <li><a href="/destination/destination.html">Destination</a></li> -->
+            <li><a href="/history/history.html">History</a></li>
+            <li><a href="/profile/profile.html">Profile</a></li>
+            <li><a href="/contact/contact.html">Contact</a></li>
+        </ul>
+    </header>    
+    <Section>
+        <h2 id="text"><span>History of The Land of Paradise</span><br>Nusantara</h2>
+        
+        <img src="https://user-images.githubusercontent.com/65358991/170092504-132fa547-5ced-40e5-ab64-ded61518fac2.png" id="bird1">
+        <img src="https://user-images.githubusercontent.com/65358991/170092542-9747edcc-fb51-4e21-aaf5-a61119393618.png" id="bird2">
+        <img src="https://user-images.githubusercontent.com/65358991/170092559-883fe071-eb4f-4610-8c8b-a037d061c617.png" id="forest">
+        
+        <a href="https://id.wikipedia.org/wiki/Indonesia" id="btn">Explore</a>
+        
+        <img src="https://user-images.githubusercontent.com/65358991/170092605-eada6510-d556-45cc-b7fa-9e4d1d258d26.png" id="rocks">
+        <img src="https://user-images.githubusercontent.com/65358991/170092616-5a70c4af-2eed-496f-bde9-b5fcc7142a31.png" id="water">
+    </Section>
+    
+    <div class="sec">
+        <h2>History</h2>
+        <p>The history of Indonesia can be marked as the dawn of mankind since it is where the remains of the 
+            early man were unearthed. During the ancient age of kingdoms and empires, Indonesia saw the rise of 
+            the great empires that ruled over almost all of South-East Asia and regarded to play a key role in 
+            the history of the region. After gaining independence from foreign colonization and the wave of both 
+            World Wars, Indonesia emerged as one united country and continued to thrive amongst the top nations of 
+            the world to this very day. 
+            <br><br>
+            <h3>When was the dawn of mankind in Indonesia?</h3>
+            <p>
+                Fossilized remains of Homo erectus and his tools, popularly known as the "Java Man" found in the archaeological 
+                site of Sangiran in Central Java, suggested that the Indonesian archipelago was already inhabited by “the early man” 
+                at least since 1.5 million years ago. Recently, the fossil of Homo floresiensis or nicknamed as ‘hobbit man’ was 
+                discovered in Liang Bua, Flores Island and also believed to be one of the ancestors of modern humans.
+            </p>
+            <br><br>
+            <h3>What happened during the age of Kings and Sultans?</h3>
+            <p>
+                Chinese chronicles mention that trade between India, China and the islands within what today is the Indonesian 
+                Archipelago was already thriving since the first century AD. The powerful maritime empire of Srivijaya in 
+                southern Sumatra that ruled over the Sumatra seas and the Malacca Straits from the 7th to the 13th century 
+                was the centre for Buddhism learning and famous for its wealth. In the 8th- 9th century, the Sailendra 
+                Dynasty of the Mataram kingdom in Central Java built the magnificent Buddhist Borobudur temple in Central 
+                Java and followed by the construction of the Hindu Temple Prambanan.
+            
+                <br><br>
+                From 1294 to the 15th century the powerful Majapahit Kingdom in East Java held suzerainty over a large 
+                part of this archipelago. Meanwhile, small and large sultanates thrived on many islands of the archipelago, 
+                from Sumatra to Java and Bali, to Kalimantan, Sulawesi, Ternate and the Moluccas, especially following 
+                the arrival of Islam in the 13th Century.
+            </p>
+            <br><br>
+            <h3>What was the Colonial Era like?</h3>
+            <p>
+                Following the arrival of Marco polo in Sumatra, successive waves of Europeans—the Portuguese, Spanish, 
+                Dutch and British—sought to dominate the spice trade at its sources which is at the Moluccas or Maluku 
+                Islands of Indonesia began in the 16th century. In 1596 the first Dutch vessels anchored at the 
+                shores of West Java. Over the next three centuries, the Dutch gradually colonized this archipelago 
+                until it became known as the Dutch East Indies.
+            </p>
+            <br><br>
+            <h4>The Emergence of Indonesia and the Declaration of Independence</h4>
+            <p>
+                Revolt against the oppressing colonizers soon built up throughout the country. The Indonesian youth, 
+                in their Youth Pledge of 1928 vowed together to build “One Country, One Nation and One Language: 
+                Indonesia”, regardless of race, religion, language or ethnic background in the territory then 
+                known as the Dutch East Indies.
+                <br><br>
+                Finally, on the 17th of August 1945, after the defeat of the Japanese in the Second World War, 
+                the Indonesian people declared their Independence through their leaders Soekarno and Hatta. 
+                Freedom, however, was not easily granted. Only after years of bloody fighting did the Dutch 
+                government finally relent, officially recognizing Indonesia’s Independence in 1950.
+            </p>
+                <br><br>
+        </p>
+    </div>
+    
+    
+    
+    <script>
+        let text = document.getElementById('text');
+        let bird1 = document.getElementById('bird1');
+        let bird2 = document.getElementById('bird2');
+        let btn = document.getElementById('btn');
+        let rocks = document.getElementById('rocks');
+        let forest = document.getElementById('forest');
+        let water = document.getElementById('water');
+        let header = document.getElementById('header');
+        
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            
+            text.style.top = 50 + value * -.1 + '%';
+            bird2.style.top = value * -1.5 + 'px';
+            bird2.style.left = value * 2 + 'px';
+            bird1.style.top = value * -1.5 + 'px';
+            bird1.style.left = value * -5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            rocks.style.top = value * -.12 + 'px';
+            forest.style.top = value * .25 + 'px';
+            header.style.top = value * .5 + 'px';
+        })
+    </script>
+    
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
